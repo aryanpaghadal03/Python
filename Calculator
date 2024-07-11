@@ -1,0 +1,19 @@
+print("Enter value 1 : ")
+a = int(input())
+print("Enter value 2 : ")
+b = int(input())
+print("Enter + for addition")
+print("Enter - for subtraction")
+print("Enter * for multiplication")
+print("Enter / for division")
+c = input()
+if c == '+':
+    print(a + b)
+elif c == '-':
+    print(a - b)
+elif c == '*':
+    print(a * b)
+elif c == '/':
+        print(a / b)
+else:
+    print("Invalid input!")
